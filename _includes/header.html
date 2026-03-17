@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ '/' | relative_url }}" class="logo-link">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Same Team" class="logo-img">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="active"{% endif %}>About</a></li>
+        <li><a href="{{ '/shop/' | relative_url }}"{% if page.url contains '/shop' %} class="active"{% endif %}>Shop</a></li>
+        <li><a href="{{ '/gallery/' | relative_url }}"{% if page.url contains '/gallery' %} class="active"{% endif %}>Gallery</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} class="active"{% endif %}>Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

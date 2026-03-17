@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "WebFetch(domain:sameteam.org)",
+      "Bash(cd:*)",
+      "Bash(bundle install:*)",
+      "Bash(bundle exec:*)",
+      "Bash(wget -r -l 2 -A jpg,jpeg,png,gif,webp -nd -P ./gallery \"https://sameteam.org/gallery\")",
+      "Bash(curl --version)",
+      "Bash(curl -s \"https://sameteam.org/gallery\")",
+      "Bash(curl -sL \"https://sameteam.org/gallery\")",
+      "Bash(curl -sL \"https://sameteam.org\")",
+      "Bash(curl -sL \"https://sameteam.org/shop\")",
+      "Bash(dest_img=\"/c/Users/nicho/Claude Code Files/SameTeam/assets/images\")",
+      "Bash(curl -sL \"https://images.squarespace-cdn.com/content/v1/557759d0e4b0feee2539827d/1494449269993-1NQEW107IT1VXYA1JZ2K/SAMETEAM-HORIZONTAL.png\" -o \"$dest_img/logo.png\")"
+    ]
+  }
+}

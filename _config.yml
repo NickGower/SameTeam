@@ -1,0 +1,20 @@
+title: Same Team
+description: "Always Accepting New Members"
+baseurl: ""
+url: "https://sameteam.org"
+
+email: SameTeamGoods@gmail.com
+phone: "(864) 420-4210"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: /:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
